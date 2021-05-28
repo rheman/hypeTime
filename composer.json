@@ -1,0 +1,27 @@
+{
+	"name": "pessek/hypetime",
+	"type": "elgg-plugin",
+	"description": "Utilities for working with dates and time",
+	"keywords": [
+		"elgg", "plugin", "time", "date"
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+		}
+	],
+	"extra": {
+		"installer-name": "hypeTime"
+	},
+	"require": {
+		"php": ">=7.0",
+		"composer/installers": "~1.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
