@@ -13,7 +13,6 @@ return [
 			],
 		],
 	],
-
 	'settings' => [
 		'format:time' => 'H:i',
 		'format:date' => 'M j, Y',
